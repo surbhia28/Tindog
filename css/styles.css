@@ -1,0 +1,144 @@
+body{
+    
+}
+
+h1{
+    font-family:"Montserrat-Bold";
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;   
+}
+h2{
+    font-family: "Montserrrat-Bold";
+    font-size: 3rem;
+    
+}
+h3{
+    font-family: "Montserrat";
+    font-weight: 15%;
+    text-align: center;
+}
+
+#title{
+    background-color: #ff4c68;
+    color: white;
+}
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+p{
+    color: grey;
+}
+.navbar{
+    padding: 4.5rem 0px;
+   
+}
+.nav-item{
+    padding: 18px 0px;
+    
+}
+.nav-link{
+    font-size: 1.5rem;
+}
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+   
+}
+.download-button{
+    margin: 3% 5% 3% 0;
+}
+.title-image{
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%
+    
+}
+#features{
+    padding: 7% 15% ;
+    background-color: white;
+    position:relative;
+    z-index: 1;
+}
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+}
+
+#testimonials{
+     
+     text-align: center;
+     background-color: #ff4c68;
+     color: white;
+}
+.testimonial-image{
+    border-radius: 100%;
+    width: 10%;
+    margin: 20px;
+}
+.carousel-item{
+    padding: 7% 15%;
+
+}
+#press{
+    text-align: center;
+     background-color: #ff4c68;
+     color: white;
+     padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin:20px 20px 50px;
+}
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-column{
+padding: 3% 2%;
+}
+@media (max-width:1028px){
+    #title{
+    text-align: center;
+    }
+    .title-image{
+        position:static;
+        transform:rotate(0);
+    }
+}
+#cta{
+    font-size: 2%;
+    color: white;
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 7% 15%;
+    margin:7% 0%;
+    
+}
+.footer-button{
+    display: flex;
+    display: inline-block;
+    justify-content: center;
+    float: inline-end;
+    
+    
+
+}
+#footer{
+    padding: 7% 15%;
+ text-align: center;
+ color: black;
+ background-color: white;
+}
+.fa-footer{
+ margin: 20px 10px;
+}
